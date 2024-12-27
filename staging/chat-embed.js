@@ -1,7 +1,7 @@
 async function init(chatModel, bubbleColor, bubbleIcon, chatWidth = '450px', chatHeight = '550px', bottom = '20px', right = '20px') {
     let id = await chatModel;
 
-    let botIcon = bubbleIcon ? bubbleIcon : "./public/logo_conductify.png"
+    let botIcon = bubbleIcon ? bubbleIcon : "https://cdn.jsdelivr.net/gh/ConductifyAI/conductify-integration-scripts/production/logo_conductify.png"
 
     // Create the main script element
     var script = document.createElement('script');
